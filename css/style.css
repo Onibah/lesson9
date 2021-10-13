@@ -1,0 +1,259 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,regular,500,700,900,&display=swap");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueBoldCondensed.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	font-family: "Roboto";
+
+}
+
+/* ------------------------------ */
+.box__perspiciatis {
+	background: #F5F5F5 url("../img/bg.png") 100% 170% no-repeat;
+	padding: 110px 0px 0px 0px;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.perspiciatis {
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+/* заголовки */
+.perspiciatis__titles {
+	width: 583px;
+	padding: 0px 0px 42px 0px;
+	margin: 0px 0px 36px 0px;
+}
+
+.our__title {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	line-height: 24px;
+	color: #5D62B5;
+	margin: 0px 0px 26px 0px;
+}
+.our__title::before {
+	content: "";
+	display: inline-block;
+	width: 26px;
+	height: 18px;
+	vertical-align: top;
+	background: url("../img/mark.svg") -6px -2px no-repeat;
+}
+
+.sed__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+
+
+/* таблички */
+
+.box__items {
+	margin: 0px 0px 66px 0px;
+	font-size: 0px;
+}
+.items:not(:last-child):not(:nth-child(3)) {
+	margin-right: 24px;
+}
+.items {
+	width: 324px;
+	display: inline-block;
+	padding: 50px 44px;
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 20px;
+	margin-bottom: 24px;
+	
+}
+.items:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24);
+	width: 324px;
+	display: inline-block;
+	padding: 50px 44px;
+	text-align: center;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+.img {
+	margin: 0px 0px 33px 0px;
+}
+.title__item {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+.text__item {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+/* Кнопка................................................................... */
+.button__perspiciatis {
+	text-align: center;
+	margin: 0px 0px 120px 0px;
+}
+.button {
+	display: inline-block;
+	width: 124px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: #F2726F;
+	color: #FFFFFF;
+	padding: 9px 0px 9px 0px;
+	border-radius: 8px;
+}
+.button:hover {
+	box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.733);
+	display: inline-block;
+	width: 124px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: #F2726F;
+	color: #FFFFFF;
+	padding: 9px 0px 9px 0px;
+	border-radius: 8px;
+}
+.button:active {
+	box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.733);
+	display: inline-block;
+	width: 124px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: #f2716faf;
+	color: #ffffffd3;
+	padding: 9px 0px 9px 0px;
+	border-radius: 8px;
+}
+
+/* Второй блок...................................................................................... */
+.conteiner__itemstwo {
+	font-size: 0;
+	margin: 0px 0px 50px 0px;
+}
+.perspiciatis__titles_1 {
+	margin: 0px 0px 26px 0px;
+}
+.items__two {
+	width: 324px;
+	display: inline-block;
+}
+.items__two:not(:last-child) {
+	margin: 0px 24px 0px 0px;
+}
+.icon {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 23px 0px 0px;
+}
+.box__ti {
+	display: inline-block;
+	width: 235px;
+}
+.title__itemtwo {
+	margin: 0px 0px 20px 0px;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+}
+.text__itemtwo {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
